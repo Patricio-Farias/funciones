@@ -1,0 +1,45 @@
+/* selecciona todos los elemento de clase Container
+establece modelo de caja flexibe
+centra los elementos hijos en el container
+centra verticalmente los elementos hijos
+define espacio entre elementos hijos
+agrega relleno en la parte superior del contenedor flexible */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 100px;
+}
+
+/* estilos para div ancho y altura de elementos */
+
+.container div{
+    width: 200px;
+    height: 200px;
+}
+
+/*color de fondo de elemento seleccionado en azul*/
+
+.container #div-azul{
+    background-color: blue;
+}
+
+/*color de fondo de elemento seleccionado en rojo*/
+
+.container #div-rojo{
+    background-color: red;
+}
+
+/*color de fondo de elemento seleccionado en verde*/
+
+.container > #div-verde{
+    background-color: green;
+}
+
+/*color de fondo de elemento seleccionado en amarillo*/
+
+.container > #div-amarillo{
+    background-color: yellow;
+}

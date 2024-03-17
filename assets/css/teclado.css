@@ -1,0 +1,13 @@
+#key {
+    /* ancho */
+    width: 200px;
+    /* altura */          
+    height: 200px;
+    /* establece colo de fondo blanco */
+    background-color: white;
+    /* establece un borde */
+    border: 2px solid black;
+
+}
+
+
